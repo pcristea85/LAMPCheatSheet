@@ -35,9 +35,13 @@ Find: /s
 
 #Mysql
 Export DB
-```mysqlexport -uusername -ppassword database_name path/exportedfile.sql```
+```
+mysqlexport -uusername -ppassword database_name path/exportedfile.sql
+```
 Import DB: 
-```mysql -uusername -ppassword database_name < path/filetoimport.sql```
+```
+mysql -uusername -ppassword database_name < path/filetoimport.sql
+```
 
 #Archiving
 ##GZ
