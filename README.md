@@ -34,8 +34,10 @@ Find: /s
 **a2enmod**
 
 #Mysql
-Export DB: **mysqlexport -uusername -ppassword database_name path/exportedfile.sql**
-Import DB: **mysql -uusername -ppassword database_name < path/filetoimport.sql**
+Export DB
+```mysqlexport -uusername -ppassword database_name path/exportedfile.sql```
+Import DB: 
+```mysql -uusername -ppassword database_name < path/filetoimport.sql```
 
 #Archiving
 ##GZ
